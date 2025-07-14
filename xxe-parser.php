@@ -28,10 +28,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['xmlfile'])) {
         echo "<li><strong>$key:</strong> " . htmlspecialchars($value) . "</li>";
     }
     echo "</ul>";
-    echo "<br><a href=\"../xxe/\">Go back</a>";
+    echo "<br><a href=\"index.html\">Go back</a>";
 } else {
     echo "No file uploaded.";
-    echo "<br><a href=\"../xxe/\">Go back</a>";
+    echo "<br><a href=\"index.html\">Go back</a>";
 }
 ?>
 </body>
