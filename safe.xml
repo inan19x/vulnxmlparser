@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee> 
+    <name>Alice Adams</name>
+    <id>9000123</id>
+    <dept>Finance</dept>
+    <email>alice@acme.lab</email>
+</employee>
